@@ -69,12 +69,14 @@ body
     color: rgb(240, 219, 219);
     a:link { color: #f9fafb; }
     a:visited { color: #f9fafb; }
-    
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
 }
 .tile_0:hover
 {
     background: linear-gradient(90deg, rgba(104,26,157,1) 0%, rgba(251,15,203,1) 50%, rgba(124,55,254,1) 100%);
     cursor: pointer;
+    transform: scale(1.04);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 .tile_1
@@ -90,12 +92,15 @@ body
     color: rgb(240, 219, 219);
     a:link { color: #f9fafb; }
     a:visited { color: #f9fafb; }
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
 }
 
 .tile_1:hover
 {
     background: linear-gradient(90deg, rgba(104,26,157,1) 0%, rgba(251,15,203,1) 50%, rgba(124,55,254,1) 100%);
     cursor: pointer;
+    transform: scale(1.04);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 .tile_2
@@ -111,12 +116,15 @@ body
     color: rgb(240, 219, 219);
     a:link { color: #f9fafb; }
     a:visited { color: #f9fafb; }
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
 }
 
 .tile_2:hover
 {
     background: linear-gradient(90deg, rgba(104,26,157,1) 0%, rgba(251,15,203,1) 50%, rgba(124,55,254,1) 100%);
     cursor: pointer;
+    transform: scale(1.04);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 .tile_sm0
 {
@@ -127,13 +135,15 @@ body
     margin: 25px;
     border-radius: 4px;
     text-align: center;
-    
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
 }
 
 .tile_sm0:hover
 {
     background-color: rgba(174, 33, 33, 0.693); 
     cursor: pointer;
+    transform: scale(1.04);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 .tile_sm1
@@ -146,12 +156,15 @@ body
     margin: 25px;
     border-radius: 4px;
     text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
 }
 
 .tile_sm1:hover
 {
     background-image: url(png/in_hover.png);
     cursor: pointer;
+    transform: scale(1.04);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 .tile_sm2
@@ -163,12 +176,15 @@ body
     margin: 25px;
     border-radius: 4px;
     text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
 }
 
 .tile_sm2:hover
 {
     background-color: rgb(116, 143, 193); 
     cursor: pointer;
+    transform: scale(1.04);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 .tile_sm3
@@ -181,12 +197,15 @@ body
     margin: 25px;
     border-radius: 4px;
     text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
 }
 
 .tile_sm3:hover
 {
     background-image: url(png/Snapchat1_hover.jpg);
     cursor: pointer;
+    transform: scale(1.04);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 a {
     text-decoration: none;
