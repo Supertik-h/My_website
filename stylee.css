@@ -61,11 +61,56 @@ body
     height: 90px;
     float: left;
     padding: 10px;
-    background-color: rgb(122, 113, 102);
+    background-color: rgb(178, 63, 189);
     margin: 10px;
     border-radius: 10px;
     text-align: center;
     color: rgb(240, 219, 219);
     
     
+}
+.tile_0:hover
+{
+    background-color: #9f30bd;
+    cursor: pointer;
+}
+
+.tile_1
+{
+    width: 283px;
+    height: 90px;
+    float: left;
+    padding: 10px;
+    background-color: rgb(178, 63, 189);
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(240, 219, 219);
+    
+}
+
+.tile_1:hover
+{
+    background-color: #9f30bd;
+    cursor: pointer;
+}
+
+.tile_2
+{
+    width: 283px;
+    height: 90px;
+    float: left;
+    padding: 10px;
+    background-color: rgb(178, 63, 189);
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(240, 219, 219);
+    
+}
+
+.tile_2:hover
+{
+    background-color: #9f30bd;
+    cursor: pointer;
 }
