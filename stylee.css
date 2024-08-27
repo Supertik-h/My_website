@@ -2,7 +2,7 @@ body
 {
     color: rgb(0, 0, 0); 
     
-    background: linear-gradient(0deg, rgba(185,104,247,1) 0%, rgba(114,2,228,1) 100%);
+    background-color:rgb(185,104,247,1);
 }
 
 #container
@@ -44,7 +44,7 @@ body
 
 #content
 {
-    width: 940px;
+    width: 710px;
     height: 300px;
     font-size: 19px;
     background: radial-gradient(circle, rgba(213,174,238,0.9058901148349965) 0%, rgba(197,148,233,1) 100%);
@@ -53,7 +53,17 @@ body
     border-radius: 5px;;
     text-align: justify;
     margin: 10px;
+    padding-left: 250px;
+}
+
+#image{
+    position: relative;
+    top: -310px;
+    right: 220px;
+    border-radius: 50%;
     
+    object-fit: cover;
+    z-index: 10;
 }
 
 .tile_0
