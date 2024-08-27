@@ -1,7 +1,7 @@
 body 
 {
     color: rgb(0, 0, 0); 
-    background-color: rgb(150, 128, 114);
+    background-color: rgb(208, 174, 211);
 }
 
 #container
@@ -20,7 +20,7 @@ body
 {
     width: 100%-25px;
     height: 35px;   
-    background-color: rgba(216, 204, 193, 0.578);
+    background-color: rgba(194, 72, 210, 0.836);
     border-radius: 6px;
     padding: 15px;
     font-size: 30px;
@@ -32,7 +32,7 @@ body
 #footer
 {
     width: 100%-30px;
-    background-color: rgb(22, 21, 21);
+    background-color: rgb(58, 10, 79);
     height: 30px;
     margin-top: 15px;
     text-align: center;
@@ -40,4 +40,32 @@ body
     font-size: 20px;
     padding: 10px;
     border-radius: 5px;
+}
+
+#content
+{
+    width: 940px;
+    height: 300px;
+    font-size: 19px;
+    background-color: rgba(201, 31, 190, 0.63);
+    padding: 20px;
+    border-radius: 5px;;
+    text-align: justify;
+    margin: 10px;
+    
+}
+
+.tile_0
+{
+    width: 283px;
+    height: 90px;
+    float: left;
+    padding: 10px;
+    background-color: rgb(122, 113, 102);
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(240, 219, 219);
+    
+    
 }
