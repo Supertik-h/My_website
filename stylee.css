@@ -114,3 +114,73 @@ body
     background-color: #9f30bd;
     cursor: pointer;
 }
+.tile_sm0
+{
+    float: left;
+    width: 200px;
+    height: 70px;
+    background-color: rgba(255, 0, 0, 0.673);
+    margin: 25px;
+    border-radius: 4px;
+    text-align: center;
+    
+}
+
+.tile_sm0:hover
+{
+    background-color: rgba(174, 33, 33, 0.693); 
+    cursor: pointer;
+}
+
+.tile_sm1
+{
+    float: left;
+    width: 200px;
+    height: 70px;
+    background-image: url(png/in.png);
+    background-position: center;
+    margin: 25px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.tile_sm1:hover
+{
+    background-image: url(png/in_hover.png);
+    cursor: pointer;
+}
+
+.tile_sm2
+{
+    float: left;
+    width: 200px;
+    height: 70px;
+    background-color: rgb(64, 96, 160);
+    margin: 25px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.tile_sm2:hover
+{
+    background-color: rgb(116, 143, 193); 
+    cursor: pointer;
+}
+
+.tile_sm3
+{
+    float: left;
+    width: 200px;
+    height: 70px;
+    background-image: url(png/Snapchat1.jpg);
+    background-position: center;
+    margin: 25px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.tile_sm3:hover
+{
+    background-image: url(png/Snapchat1_hover.jpg);
+    cursor: pointer;
+}
