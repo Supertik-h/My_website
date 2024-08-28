@@ -168,7 +168,7 @@ body
     float: left;
     width: 200px;
     height: 70px;
-    background-image: url(png/in.png);
+    background-image: url(in.png);
     background-position: center;
     margin: 25px;
     border-radius: 4px;
@@ -178,7 +178,7 @@ body
 
 .tile_sm1:hover
 {
-    background-image: url(png/in_hover.png);
+    background-image: url(in_hover.png);
     cursor: pointer;
     transform: scale(1.04);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
@@ -209,7 +209,7 @@ body
     float: left;
     width: 200px;
     height: 70px;
-    background-image: url(png/Snapchat1.jpg);
+    background-image: url(Snapchat1.jpg);
     background-position: center;
     margin: 25px;
     border-radius: 4px;
@@ -219,7 +219,7 @@ body
 
 .tile_sm3:hover
 {
-    background-image: url(png/Snapchat1_hover.jpg);
+    background-image: url(Snapchat1_hover.jpg);
     cursor: pointer;
     transform: scale(1.04);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
